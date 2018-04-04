@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form,a,span{ margin:0; padding:0;font-family:"微软雅黑";}
+input,button { border:none;outline: none; padding:0;margin:0;font-family:"微软雅黑";}
+ul, li { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","微软雅黑";}
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+table { border-collapse:collapse; }
+html{
+	font-size: 100px;
+}
+#active_bg{
+	width:12.8rem;
+	height: 7.2rem;
+	background-image:url(../images/bg.jpg);
+	background-size:12.8rem 7.2rem;	
+	position:relative;
+	overflow:hidden;
+}
+#but_yes,#but_no{
+	width:2.14rem;
+	height:0.65rem;
+	position:absolute;
+	background-size:2.14rem 0.65rem;
+	background-position: center;
+}
+#but_yes{
+	bottom:1.7rem;
+	left: 3.8rem;
+	background-image: url(../images/sure.png);
+}
+#but_no{
+	bottom:1.7rem;
+	left: 6.9rem;
+	background-image: url(../images/return.png);
+}
